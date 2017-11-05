@@ -17,14 +17,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s2M-Jx-tN8">
-                                <rect key="frame" x="0.0" y="20" width="414" height="44"/>
+                            <navigationBar contentMode="left" translucent="NO" largeTitles="YES" translatesAutoresizingMaskIntoConstraints="NO" id="s2M-Jx-tN8">
+                                <rect key="frame" x="0.0" y="20" width="414" height="96"/>
+                                <color key="barTintColor" red="0.0078754117710000005" green="0.57167607549999999" blue="0.29594478010000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <textAttributes key="largeTitleTextAttributes">
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="textShadowColor" red="0.0078754117710000005" green="0.57167607549999999" blue="0.29594478010000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </textAttributes>
                                 <items>
-                                    <navigationItem title="Gas Friend" largeTitleDisplayMode="never" id="lRx-mV-74h"/>
+                                    <navigationItem title="Gas Friend" largeTitleDisplayMode="always" id="lRx-mV-74h"/>
                                 </items>
                             </navigationBar>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="hOE-7J-Co6">
-                                <rect key="frame" x="16" y="80" width="382" height="58.333333333333343"/>
+                                <rect key="frame" x="16" y="132" width="382" height="58.333333333333343"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Odometer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wGb-TJ-kXx">
                                         <rect key="frame" x="0.0" y="0.0" width="382" height="20.333333333333332"/>
@@ -33,7 +38,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textField opaque="NO" alpha="0.69999999999999996" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Number" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YOZ-cq-ENn">
-                                        <rect key="frame" x="0.0" y="28.333333333333329" width="382" height="30"/>
+                                        <rect key="frame" x="0.0" y="28.333333333333343" width="382" height="30"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" keyboardType="decimalPad" keyboardAppearance="light" returnKeyType="done"/>
