@@ -82,6 +82,10 @@
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" keyboardType="decimalPad" keyboardAppearance="light" returnKeyType="done"/>
+                                        <connections>
+                                            <action selector="convert" destination="BYZ-38-t0r" eventType="editingDidEnd" id="ool-nz-tDp"/>
+                                            <action selector="convert:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="KhI-3W-eu2"/>
+                                        </connections>
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gallons of Gas" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gjq-aq-aOR">
                                         <rect key="frame" x="0.0" y="66.333333333333343" width="382" height="20.333333333333329"/>
@@ -94,9 +98,32 @@
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" keyboardType="decimalPad" keyboardAppearance="light" returnKeyType="done"/>
+                                        <connections>
+                                            <action selector="convert" destination="BYZ-38-t0r" eventType="editingDidEnd" id="XWs-F5-BC2"/>
+                                            <action selector="convert:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="nYh-Po-sw8"/>
+                                        </connections>
                                     </textField>
                                 </subviews>
                             </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zx3-wy-zUM">
+                                <rect key="frame" x="16" y="285" width="382" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.046545039428554702" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Convert">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="convert" destination="BYZ-38-t0r" eventType="touchUpInside" id="q8u-5h-7zK"/>
+                                    <action selector="convert:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dB7-Mu-HW0"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="label1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kqh-vb-231">
+                                <rect key="frame" x="16" y="358" width="382" height="300"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.0078754117712378502" green="0.57167607545852661" blue="0.29594478011131287" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
