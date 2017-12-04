@@ -17,19 +17,20 @@ class ViewController: UIViewController {
     @IBAction func Convert(_ sender: Any) {
         let login = HelloViewController()
         
+        Output.isHidden = false
+        
         let c = Double(login.loadDefaults())!
         let a = (Odom.text! as NSString).doubleValue
         let b = (Gas.text! as NSString).doubleValue
         
         
         let answer = (a - c) / b
-        Output.text = "\(answer)"
+        Output.text = "\(answer) Miles Per Gallon"
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        // Do any additional setup after loading the view, typically from a nib.
+        Output.isHidden = true        // Do any additional setup after loading the view, typically from a nib.
     }
 
     override func didReceiveMemoryWarning() {
