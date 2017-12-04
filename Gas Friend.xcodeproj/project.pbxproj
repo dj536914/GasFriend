@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2EF5F7811FCFD6A900796E00 /* HelloViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF5F7801FCFD6A900796E00 /* HelloViewController.swift */; };
 		852931481FA2342500CF99D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852931471FA2342500CF99D4 /* AppDelegate.swift */; };
 		8529314A1FA2342500CF99D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852931491FA2342500CF99D4 /* ViewController.swift */; };
 		8529314D1FA2342500CF99D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8529314B1FA2342500CF99D4 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2EF5F7801FCFD6A900796E00 /* HelloViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloViewController.swift; sourceTree = "<group>"; };
 		852931441FA2342500CF99D4 /* Gas Friend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gas Friend.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		852931471FA2342500CF99D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		852931491FA2342500CF99D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				852931471FA2342500CF99D4 /* AppDelegate.swift */,
 				852931491FA2342500CF99D4 /* ViewController.swift */,
 				8529314B1FA2342500CF99D4 /* Main.storyboard */,
+				2EF5F7801FCFD6A900796E00 /* HelloViewController.swift */,
 				8529314E1FA2342500CF99D4 /* Assets.xcassets */,
 				852931501FA2342500CF99D4 /* LaunchScreen.storyboard */,
 				852931531FA2342500CF99D4 /* Info.plist */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EF5F7811FCFD6A900796E00 /* HelloViewController.swift in Sources */,
 				8529314A1FA2342500CF99D4 /* ViewController.swift in Sources */,
 				852931481FA2342500CF99D4 /* AppDelegate.swift in Sources */,
 			);
