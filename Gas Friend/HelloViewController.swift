@@ -23,6 +23,8 @@ class HelloViewController: UIViewController {
         /// -parameter forKey: the variable name or key where data is stored
         defaults.set(initOdoTextField.text, forKey: "initodo")
         defaults.synchronize()
+        ///used so the first page only shows on initial launch
+        UserDefaults.standard.set(true, forKey: "loadpage")
     }
     /// function that is able to load the value that was stored in a text field
     func loadDefaults() -> String {
@@ -33,7 +35,11 @@ class HelloViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        if UserDefaults.standard.bool(forKey: "loadpage") {
+            
+        } else {
+            
+        }
         // Do any additional setup after loading the view.
     }
 
