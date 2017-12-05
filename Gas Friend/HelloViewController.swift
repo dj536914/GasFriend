@@ -8,8 +8,27 @@
 
 import UIKit
 
-class HelloViewController: UIViewController {
 
+class HelloViewController: UIViewController {
+    
+    // MARK: Properties
+    
+    @IBOutlet weak var initOdoTextField: UITextField!
+    
+    
+    
+    @IBAction func saveButton(_ sender: UIButton) {
+        let defaults = UserDefaults.standard
+        
+        defaults.set(initOdoTextField.text, forKey: "initodo")
+        defaults.synchronize()
+    }
+    
+    func loadDefaults() {
+        let defaults = UserDefaults.standard
+        initOdoTextField.text = defaults.object(forKey: "initodo") as? String
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
