@@ -8,11 +8,24 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-    
+class ViewController: UIViewController, UITextFieldDelegate {
 
+    @IBOutlet weak var Odom: UITextField!
+    @IBOutlet weak var Gas: UITextField!
+    @IBOutlet weak var Output: UILabel!
+    
+    @IBAction func Convert(_ sender: Any) {
+        var a = (Odom.text! as NSString).doubleValue
+        var b = (Gas.text! as NSString).doubleValue
+        var answer = a/b
+        Output.text = "\(answer)"
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        Odom.delegate = self
+        Gas.delegate = self
         // Do any additional setup after loading the view, typically from a nib.
     }
 

@@ -113,8 +113,9 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="Convert:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zM7-gA-EvG"/>
                                     <action selector="convert" destination="BYZ-38-t0r" eventType="touchUpInside" id="q8u-5h-7zK"/>
-                                    <action selector="convert:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dB7-Mu-HW0"/>
+                                    <action selector="convert:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XLm-Da-spi"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="label1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kqh-vb-231">
@@ -137,6 +138,12 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <nil key="simulatedTopBarMetrics"/>
+                    <connections>
+                        <outlet property="Gas" destination="lhe-7g-lDc" id="yvv-bd-6KO"/>
+                        <outlet property="Odom" destination="YOZ-cq-ENn" id="Ote-bX-d6I"/>
+                        <outlet property="Output" destination="Kqh-vb-231" id="oUb-Pc-I9S"/>
+                        <outlet property="gasamount" destination="lhe-7g-lDc" id="xkf-j6-o43"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
