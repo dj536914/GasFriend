@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="7rt-th-nJ2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="7rt-th-nJ2">
     <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -17,33 +17,52 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Enter your starting odometer value" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I3b-1s-36U">
-                                <rect key="frame" x="63" y="52" width="289" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="mh6-29-Jh6">
+                                <rect key="frame" x="16" y="52" width="382" height="24"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter your starting odometer value" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I3b-1s-36U">
+                                        <rect key="frame" x="0.0" y="0.0" width="382" height="24"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <color key="textColor" red="0.99990254639999998" green="1" blue="0.99988251920000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LUw-t0-wOa">
+                                <rect key="frame" x="16" y="122" width="382" height="33"/>
+                                <color key="backgroundColor" red="0.92894572019577026" green="0.0047190361656248569" blue="0.059329353272914886" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.99990254639999998" green="1" blue="0.99988251920000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textField opaque="NO" alpha="0.69999999999999996" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="000000" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8iY-1O-bLc">
-                                <rect key="frame" x="63" y="81" width="269" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LUw-t0-wOa">
-                                <rect key="frame" x="63" y="149" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Enter"/>
+                                <state key="normal" title="Enter">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
                                 <connections>
                                     <action selector="Enter:" destination="nbr-Ba-omc" eventType="touchUpInside" id="d1v-DQ-Q3Z"/>
                                     <action selector="saveButton:" destination="7rt-th-nJ2" eventType="touchUpInside" id="0aI-s8-Htu"/>
                                     <segue destination="BYZ-38-t0r" kind="show" id="q7J-Ft-lQF"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" alpha="0.69999999999999996" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="000000" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8iY-1O-bLc">
+                                <rect key="frame" x="16" y="84" width="382" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="0.0036023107822984457" green="0.57319086790084839" blue="0.29522731900215149" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" red="0.99990254640579224" green="1" blue="0.99988251924514771" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="8iY-1O-bLc" firstAttribute="trailing" secondItem="LUw-t0-wOa" secondAttribute="trailing" id="8zd-cY-kpJ"/>
+                            <constraint firstItem="8iY-1O-bLc" firstAttribute="top" secondItem="I3b-1s-36U" secondAttribute="bottom" constant="8" id="9Jg-mI-fjc"/>
+                            <constraint firstItem="LUw-t0-wOa" firstAttribute="top" secondItem="8iY-1O-bLc" secondAttribute="bottom" constant="8" id="9PG-mx-fwm"/>
+                            <constraint firstItem="mh6-29-Jh6" firstAttribute="leading" secondItem="zkv-L7-2VN" secondAttribute="leading" constant="16" id="A6d-zH-SrW"/>
+                            <constraint firstItem="8iY-1O-bLc" firstAttribute="leading" secondItem="mh6-29-Jh6" secondAttribute="leading" id="NeL-Vv-5PF"/>
+                            <constraint firstItem="8iY-1O-bLc" firstAttribute="trailing" secondItem="mh6-29-Jh6" secondAttribute="trailing" id="Ova-eu-ten"/>
+                            <constraint firstItem="8iY-1O-bLc" firstAttribute="top" secondItem="mh6-29-Jh6" secondAttribute="bottom" constant="8" id="TFP-md-WuS"/>
+                            <constraint firstItem="8iY-1O-bLc" firstAttribute="leading" secondItem="LUw-t0-wOa" secondAttribute="leading" id="TKS-Lz-SD9"/>
+                            <constraint firstItem="zkv-L7-2VN" firstAttribute="trailing" secondItem="mh6-29-Jh6" secondAttribute="trailing" constant="16" id="bzs-99-lk9"/>
+                            <constraint firstItem="8iY-1O-bLc" firstAttribute="top" secondItem="I3b-1s-36U" secondAttribute="bottom" constant="8" id="mKp-ia-H5O"/>
+                            <constraint firstItem="mh6-29-Jh6" firstAttribute="top" secondItem="zkv-L7-2VN" secondAttribute="top" constant="32" id="yph-DR-zts"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="zkv-L7-2VN"/>
                     </view>
                     <connections>
@@ -117,7 +136,7 @@
                                 <rect key="frame" x="16" y="433" width="382" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.99990254639999998" green="1" blue="0.99988251920000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
