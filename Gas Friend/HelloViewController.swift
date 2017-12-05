@@ -24,9 +24,10 @@ class HelloViewController: UIViewController {
         defaults.synchronize()
     }
     
-    func loadDefaults() {
+    func loadDefaults() -> String {
         let defaults = UserDefaults.standard
-        initOdoTextField.text = defaults.object(forKey: "initodo") as? String
+        let initodometer = defaults.object(forKey: "initodo") as? String
+        return initodometer!
     }
     
     override func viewDidLoad() {

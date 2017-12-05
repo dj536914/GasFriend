@@ -15,9 +15,14 @@ class ViewController: UIViewController {
     @IBOutlet weak var Output: UILabel!
     
     @IBAction func Convert(_ sender: Any) {
+        let login = HelloViewController()
+        
+        let c = Double(login.loadDefaults())!
         let a = (Odom.text! as NSString).doubleValue
         let b = (Gas.text! as NSString).doubleValue
-        let answer = a/b
+        
+        
+        let answer = (a - c) / b
         Output.text = "\(answer)"
     }
     
