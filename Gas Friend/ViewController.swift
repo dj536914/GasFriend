@@ -42,7 +42,7 @@ class ViewController: UIViewController {
         
         
             let answer = (a - c) / b
-            Output.text = "\(answer) Miles Per Gallon"
+            Output.text = "\(answer) MPG"
         defaults.set("\(a)", forKey: "initodo")
             
         
