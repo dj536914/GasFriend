@@ -1,0 +1,131 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/Brennen/Documents/GasFriend/Gas Friend/AppDelegate.swift",
+      "line": 12,
+      "symbol": "AppDelegate",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Brennen/Documents/GasFriend/Gas Friend/AppDelegate.swift",
+      "line": 14,
+      "symbol": "AppDelegate.window",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Brennen/Documents/GasFriend/Gas Friend/AppDelegate.swift",
+      "line": 17,
+      "symbol": "AppDelegate.application(_:didFinishLaunchingWithOptions:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Brennen/Documents/GasFriend/Gas Friend/AppDelegate.swift",
+      "line": 23,
+      "symbol": "AppDelegate.applicationWillResignActive(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Brennen/Documents/GasFriend/Gas Friend/AppDelegate.swift",
+      "line": 28,
+      "symbol": "AppDelegate.applicationDidEnterBackground(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Brennen/Documents/GasFriend/Gas Friend/AppDelegate.swift",
+      "line": 33,
+      "symbol": "AppDelegate.applicationWillEnterForeground(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Brennen/Documents/GasFriend/Gas Friend/AppDelegate.swift",
+      "line": 37,
+      "symbol": "AppDelegate.applicationDidBecomeActive(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Brennen/Documents/GasFriend/Gas Friend/AppDelegate.swift",
+      "line": 41,
+      "symbol": "AppDelegate.applicationWillTerminate(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Brennen/Documents/GasFriend/Gas Friend/HelloViewController.swift",
+      "line": 12,
+      "symbol": "HelloViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Brennen/Documents/GasFriend/Gas Friend/HelloViewController.swift",
+      "line": 16,
+      "symbol": "HelloViewController.initOdoTextField",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Brennen/Documents/GasFriend/Gas Friend/HelloViewController.swift",
+      "line": 34,
+      "symbol": "HelloViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Brennen/Documents/GasFriend/Gas Friend/HelloViewController.swift",
+      "line": 40,
+      "symbol": "HelloViewController.didReceiveMemoryWarning()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Brennen/Documents/GasFriend/Gas Friend/ViewController.swift",
+      "line": 13,
+      "symbol": "UIApplication.isFirstLaunch()",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Brennen/Documents/GasFriend/Gas Friend/ViewController.swift",
+      "line": 26,
+      "symbol": "ViewController.Odom",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Brennen/Documents/GasFriend/Gas Friend/ViewController.swift",
+      "line": 27,
+      "symbol": "ViewController.Gas",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Brennen/Documents/GasFriend/Gas Friend/ViewController.swift",
+      "line": 28,
+      "symbol": "ViewController.Output",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Brennen/Documents/GasFriend/Gas Friend/ViewController.swift",
+      "line": 75,
+      "symbol": "ViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Brennen/Documents/GasFriend/Gas Friend/ViewController.swift",
+      "line": 80,
+      "symbol": "ViewController.didReceiveMemoryWarning()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/Brennen/Documents/GasFriend"
+}

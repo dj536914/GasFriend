@@ -16,14 +16,15 @@ class HelloViewController: UIViewController {
     @IBOutlet weak var initOdoTextField: UITextField!
     
     
-    
+    /// save button: this function is activated on a button press and saves the value of the text field
     @IBAction func saveButton(_ sender: UIButton) {
         let defaults = UserDefaults.standard
-        
+        /// -parameter initodotextfield.text: the text field where data is to be used
+        /// -parameter forKey: the variable name or key where data is stored
         defaults.set(initOdoTextField.text, forKey: "initodo")
         defaults.synchronize()
     }
-    
+    /// function that is able to load the value that was stored in a text field
     func loadDefaults() -> String {
         let defaults = UserDefaults.standard
         let initodometer = defaults.object(forKey: "initodo") as? String

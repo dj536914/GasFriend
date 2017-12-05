@@ -1,0 +1,7 @@
+version: "Apple Swift version 4.0.2 (swiftlang-900.0.69.2 clang-900.0.38)"
+options: "d4e4958db8faf6f5dc7488f2e11310de"
+build_time: [1512457158, 835399000]
+inputs:
+  "/Users/Brennen/Documents/GasFriend/Gas Friend/HelloViewController.swift": [9223372036, 854775807]
+  "/Users/Brennen/Documents/GasFriend/Gas Friend/ViewController.swift": [9223372036, 854775807]
+  "/Users/Brennen/Documents/GasFriend/Gas Friend/AppDelegate.swift": [9223372036, 854775807]
