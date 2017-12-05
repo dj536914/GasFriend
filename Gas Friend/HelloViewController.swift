@@ -36,6 +36,7 @@ class HelloViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         if UserDefaults.standard.bool(forKey: "loadpage") {
+            initOdoTextField.text = loadDefaults()
             
         } else {
             
