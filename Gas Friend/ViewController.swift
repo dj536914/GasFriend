@@ -9,16 +9,7 @@
 import UIKit
 /// extention to keep track of the first ever time the app launches
 /// boolean value changes to false after first launch
-extension UIApplication {
-    class func isFirstLaunch() -> Bool {
-        if !UserDefaults.standard.bool(forKey: "HasAtLeastLaunchedOnce") {
-            UserDefaults.standard.set(true, forKey: "HasAtLeastLaunchedOnce")
-            UserDefaults.standard.synchronize()
-            return true
-        }
-        return false
-    }
-}
+
 
 /// main view controller
 class ViewController: UIViewController {
@@ -54,17 +45,7 @@ class ViewController: UIViewController {
             Output.text = "\(answer) Miles Per Gallon"
         defaults.set("\(a)", forKey: "initodo")
             
-        /*}
-        else
-        {
-            c = Double(loadPrev())!
-            a = (Odom.text! as NSString).doubleValue
-            b = (Gas.text! as NSString).doubleValue
-            
-            let answer = (a - c) / b
-            Output.text = "\(answer) Miles Per Gallon"
-            
-        }*/
+        
     }
     /// function to load the value previously stored in a text field
     func loadPrev() -> String {
