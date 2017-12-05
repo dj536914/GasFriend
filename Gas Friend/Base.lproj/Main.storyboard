@@ -88,10 +88,6 @@
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" keyboardType="decimalPad" keyboardAppearance="light" returnKeyType="done"/>
-                                        <connections>
-                                            <action selector="convert" destination="BYZ-38-t0r" eventType="editingDidEnd" id="ool-nz-tDp"/>
-                                            <action selector="convert:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="KhI-3W-eu2"/>
-                                        </connections>
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gallons of Gas" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gjq-aq-aOR">
                                         <rect key="frame" x="0.0" y="66.333333333333343" width="382" height="20.333333333333329"/>
@@ -104,10 +100,6 @@
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" keyboardType="decimalPad" keyboardAppearance="light" returnKeyType="done"/>
-                                        <connections>
-                                            <action selector="convert" destination="BYZ-38-t0r" eventType="editingDidEnd" id="XWs-F5-BC2"/>
-                                            <action selector="convert:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="nYh-Po-sw8"/>
-                                        </connections>
                                     </textField>
                                 </subviews>
                             </stackView>
@@ -120,8 +112,6 @@
                                 </state>
                                 <connections>
                                     <action selector="Convert:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zM7-gA-EvG"/>
-                                    <action selector="convert" destination="BYZ-38-t0r" eventType="touchUpInside" id="q8u-5h-7zK"/>
-                                    <action selector="convert:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XLm-Da-spi"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="label1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kqh-vb-231">
@@ -148,7 +138,6 @@
                         <outlet property="Gas" destination="lhe-7g-lDc" id="yvv-bd-6KO"/>
                         <outlet property="Odom" destination="YOZ-cq-ENn" id="Ote-bX-d6I"/>
                         <outlet property="Output" destination="Kqh-vb-231" id="oUb-Pc-I9S"/>
-                        <outlet property="gasamount" destination="lhe-7g-lDc" id="xkf-j6-o43"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
