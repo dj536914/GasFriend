@@ -36,16 +36,22 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Enter"/>
                                 <connections>
+                                    <action selector="Enter:" destination="nbr-Ba-omc" eventType="touchUpInside" id="d1v-DQ-Q3Z"/>
+                                    <action selector="saveButton:" destination="7rt-th-nJ2" eventType="touchUpInside" id="0aI-s8-Htu"/>
                                     <segue destination="BYZ-38-t0r" kind="show" id="q7J-Ft-lQF"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.20591571927070618" green="0.57413673400878906" blue="0.29395675659179688" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.0036023107822984457" green="0.57319086790084839" blue="0.29522731900215149" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" red="0.99990254640579224" green="1" blue="0.99988251924514771" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="zkv-L7-2VN"/>
                     </view>
+                    <connections>
+                        <outlet property="initOdoTextField" destination="8iY-1O-bLc" id="Oja-Hf-p3n"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0Iv-QH-lmG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="nbr-Ba-omc" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="-646.37681159420299" y="110.86956521739131"/>
         </scene>

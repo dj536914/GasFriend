@@ -8,7 +8,14 @@
 
 import UIKit
 
+<<<<<<< HEAD
 class ViewController: UIViewController, UITextFieldDelegate {
+=======
+
+
+class ViewController: UIViewController {
+    
+>>>>>>> 1971a11a1f68196baeb9699085daaada86f640a5
 
     @IBOutlet weak var Odom: UITextField!
     @IBOutlet weak var Gas: UITextField!
@@ -33,7 +40,9 @@ class ViewController: UIViewController, UITextFieldDelegate {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
+    
+    
 
 }
 
